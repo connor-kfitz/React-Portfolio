@@ -1,6 +1,7 @@
 #main {
-    height: 1000px;
+    height: auto;
     background-color:#1e1e1e;
+    padding: 10px;
 }
 
 #aboutMeText {

@@ -1,17 +1,49 @@
 import React from "react";
+import mail from "../images/mail.png"
+import mailc from "../images/mailc.png"
+import linked from "../images/linked.png"
+import linkedc from "../images/linkedc.png"
+import git from "../images/git.png"
+import gitc from "../images/gitc.png"
 import "../styles/Footer.css";
 
 
+
 function Footer() {
+
     return (
         <footer>
-        <div id="footer" class="flex">
-            <ul class="flex">
-                <li><a href="" class="navItem "><img src="./mail.png" alt=""></img></a></li>
-                <li><a href="" class="navItem image"><img src="./linked.png" alt=""></img></a></li>
-                <li><a href="" class="navItem"><img src="./git.png" alt=""></img></a></li>
+        <div id="footer" className="flex">
+            <ul className="flex">
+                <li>
+                    <a href="" className="navItem ">
+                    <img 
+                    src={mail}
+                    onMouseOver={e => e.currentTarget.src = mailc}
+                    onMouseOut={e => e.currentTarget.src = mail}
+                    alt="Email Icon"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="" className="navItem">
+                    <img 
+                    src={linked}
+                    onMouseOver={e => e.currentTarget.src = linkedc}
+                    onMouseOut={e => e.currentTarget.src = linked}
+                    alt="LinkedIn Icon"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="" className="navItem">
+                    <img 
+                    src={git}
+                    onMouseOver={e => e.currentTarget.src = gitc}
+                    onMouseOut={e => e.currentTarget.src = git}
+                    alt="Github Icon"/>
+                    </a>
+                </li>
             </ul>
-            <div id="footerInfo" class="flex">
+            <div id="footerInfo" className="flex">
                 <h4>Connor Fitzsimmons</h4>
                 <h4>Full-Stack Developer</h4>
             </div>

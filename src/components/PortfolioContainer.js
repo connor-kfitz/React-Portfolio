@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Header from "./Header"
+// import Header from "./Header"
 import Nav from "./Nav";
 import Footer from "./Footer";
 import About from "./pages/About";
@@ -15,6 +15,9 @@ export default function PortfolioContainer() {
         if (currentPage === 'Project') {
             return <Project />;
         }
+        if (currentPage === 'Stack') {
+            return <Project />;
+        }
     };
 
     const changePage = (page) => setCurrentPage(page);
@@ -23,6 +26,7 @@ export default function PortfolioContainer() {
         <div>
             <Nav currentPage={currentPage} changePage={changePage}/>
             {renderPage()}
+            <Footer />
         </div>
     );
 }

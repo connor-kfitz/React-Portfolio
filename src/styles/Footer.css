@@ -1,8 +1,8 @@
 #footer {
-    height: 100px;
+    height: auto;
     background-color: #323233;
     align-items: center;
-    padding: 0 2% 0 2%;
+    padding: 10px 10px 10px 10px;
     justify-content: space-between;
 }
 
@@ -15,7 +15,7 @@ footer ul {
 }
 
 img {
-    width: 80%;
+    width: 30px;
 }
 
 #footerInfo {
@@ -27,5 +27,5 @@ img {
 
 #footerInfo h4 {
     color: white;
-    font-size: small;
+    font-size: x-small;
 }

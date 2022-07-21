@@ -6,9 +6,9 @@ function Nav({ currentPage, changePage}) {
         <nav>
             <div id="nav" className="flex">
                 <ul className="navTabs" >
-                    <li><a href="#about" onClick={() => changePage('About')} class="navItem">About</a></li>
+                    <li><a href="#about" onClick={() => changePage('About')} className="navItem">About</a></li>
                     <li><a href="#project" onClick={() => changePage('Project')} className="navItem">Projects</a></li>
-                    <li><a href="#resume" onClick={() => changePage('Resume')} className="navItem">Resume</a></li>
+                    <li><a href="#resume" onClick={() => changePage('Stack')} className="navItem">Stack</a></li>
                 </ul>
                 <a href="">Contact</a>
             </div>
