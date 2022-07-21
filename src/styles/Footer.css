@@ -1,0 +1,31 @@
+#footer {
+    height: 100px;
+    background-color: #323233;
+    align-items: center;
+    padding: 0 2% 0 2%;
+    justify-content: space-between;
+}
+
+#footer li {
+    display: inline;
+}
+
+footer ul {
+    align-items: center;
+}
+
+img {
+    width: 80%;
+}
+
+#footerInfo {
+    flex-flow: column;
+    align-items: flex-start;
+    /* padding-top: 5%; */
+    height: 80%;
+}
+
+#footerInfo h4 {
+    color: white;
+    font-size: small;
+}
