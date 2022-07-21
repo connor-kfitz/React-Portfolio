@@ -1,38 +1,95 @@
-.App {
-  text-align: center;
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Consolas, monaco, monospace;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.flex {
+    display: flex;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+
+
+
+
+#nav {
+    height: 75px;
+    background-color:#323233;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2% 0 2%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.navItem {
+    color:#98dcfe ;
+    text-decoration: none;
+    font-size: xx-large; 
 }
 
-.App-link {
-  color: #61dafb;
+#nav a {
+    color:#98dcfe ;
+    text-decoration: none;
+    font-size: xx-large; 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#nav li {
+    display: inline;
+}
+
+
+
+
+
+
+
+
+#main {
+    height: 1000px;
+    background-color:#1e1e1e;
+}
+
+#aboutMeText {
+    color: #98dcfe;
+    font-size: small;
+}
+
+
+
+
+
+
+
+
+
+#footer {
+    height: 100px;
+    background-color: #323233;
+    align-items: center;
+    padding: 0 2% 0 2%;
+    justify-content: space-between;
+}
+
+#footer li {
+    display: inline;
+}
+
+footer ul {
+    align-items: center;
+}
+
+img {
+    width: 80%;
+}
+
+#footerInfo {
+    flex-flow: column;
+    align-items: flex-start;
+    /* padding-top: 5%; */
+    height: 80%;
+}
+
+#footerInfo h4 {
+    color: white;
+    font-size: small;
 }
