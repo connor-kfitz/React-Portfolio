@@ -6,7 +6,7 @@ import About from "./pages/About";
 import Project from "./pages/Project";
 
 export default function PortfolioContainer() {
-    const [currentPage, setCurrentPage] = useState('About');
+    const [currentPage, setCurrentPage] = useState('Project');
 
     const renderPage = () => {
         if (currentPage === 'About') {

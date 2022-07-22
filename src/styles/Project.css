@@ -1,0 +1,42 @@
+main {
+    height: auto;
+    background-color:#1e1e1e;
+    padding: 10px 10px 10px 10px;
+    color: #98dcfe;
+    font-size: small;
+}
+
+.blue {
+    color:#569cd6;
+}
+
+.lightGreen {
+    color: #dcdcaa
+}
+
+.yellow {
+    color:#ffd700;
+}
+
+.projectAnchor {
+    text-decoration: none;
+    color: #98dcfe;
+}
+
+.projectCard {
+    background-color: #323233;
+    padding: 5px;
+    margin: 10px 0 10px 0;
+}
+
+#projectOne {
+    margin-top: 0px;
+}
+
+#projectSix {
+    margin-bottom: 0px;
+}
+
+.projectIndent {
+    margin-left: 40px;
+}

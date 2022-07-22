@@ -16,7 +16,7 @@ function Footer() {
         <div id="footer" className="flex">
             <ul className="flex">
                 <li>
-                    <a href="" className="navItem ">
+                    <a href="mailto:connorkfitzsimmons@gmail.com" className="navItem ">
                     <img 
                     src={mail}
                     onMouseOver={e => e.currentTarget.src = mailc}
@@ -25,7 +25,7 @@ function Footer() {
                     </a>
                 </li>
                 <li>
-                    <a href="" className="navItem">
+                    <a href="https://www.linkedin.com/in/connor-fitzsimmons-70158abb/" className="navItem">
                     <img 
                     src={linked}
                     onMouseOver={e => e.currentTarget.src = linkedc}
@@ -34,7 +34,7 @@ function Footer() {
                     </a>
                 </li>
                 <li>
-                    <a href="" className="navItem">
+                    <a href="https://github.com/connor-kfitz" className="navItem">
                     <img 
                     src={git}
                     onMouseOver={e => e.currentTarget.src = gitc}
