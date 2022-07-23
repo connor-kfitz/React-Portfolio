@@ -63,7 +63,8 @@ function Contact() {
     };
   
     return (
-    <main>
+
+    <div id="main">
         <h1>Contact Form</h1>
         <form ref={form}>
             <div className="formItem">
@@ -105,8 +106,8 @@ function Contact() {
           <p className="error-text">{errorMessage}</p>
         </div>
       )}
-    </main>
-    );
+    </div>    
+);
 }
 
 export default Contact;

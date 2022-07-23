@@ -4,7 +4,6 @@ import "../../styles/Project.css";
 function Project() {
 
     return (
-        <main>
             <div id="projectContainer" className="flex">
 
                 <div id="projectOne" className="projectCard">  
@@ -84,7 +83,6 @@ function Project() {
                 </div>
 
             </div>
-        </main>
     )
 }
 

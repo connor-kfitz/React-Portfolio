@@ -4,9 +4,17 @@ import resume from "../../downloadable-files/Resume-Connor-Fitzsimmons.docx"
 
 function Resume() {
     return (
-        <main>
-            <a href={resume} download>Click to Download</a>
-        </main>
+        <div id="main">
+            <a id="resumeDownload" href={resume} download>Resume Download</a>
+            <div id="profContainer">
+                <h2>Proficiencies</h2>
+                    <div>
+                        <h3>Technical</h3>
+                        
+                        <h3>Soft</h3>
+                    </div>
+            </div>
+        </div>
     )
 }
 

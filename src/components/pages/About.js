@@ -5,7 +5,6 @@ import bitmojiIcon from "../../images/bitmojiAvatar.png"
 
 function Main() {
     return (
-        <main>
             <div id="main">
                 <div id="aboutMeContainer" className="">
                     <img id="avatarIcon" src={bitmojiIcon}></img>
@@ -20,7 +19,6 @@ function Main() {
                     </div>
                 </div>
             </div>
-        </main>
     )
 }
 

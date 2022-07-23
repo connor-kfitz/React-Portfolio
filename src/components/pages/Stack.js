@@ -14,7 +14,7 @@ import handlebarsIcon from "../../images/stack-images/handlebars-logo.png"
 
 function Stack() {
     return (
-        <main>
+        <div id="main">
             <h1 className="stackTitle">MERN</h1>
             <div className="stackIconOuterContainer flex">
                 
@@ -75,10 +75,8 @@ function Stack() {
                     <h4>Handlebars</h4>
                     <img src={handlebarsIcon} className="iconImage"/>
                 </div>
-
             </div>
-
-        </main>
+        </div>
     )
 }
 

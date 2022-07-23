@@ -1,17 +1,13 @@
-main {
-    background-color:#1e1e1e;
-    color: #98dcfe;
-    font-size: small;
-}
-
 .flex {
     display: flex;
 }
 
 #projectContainer {
-    height: auto;
     flex-wrap: wrap;
     justify-content: space-around;
+    background-color:#1e1e1e;
+    color: #98dcfe;
+    font-size: small;
 }
 
 .blue {
