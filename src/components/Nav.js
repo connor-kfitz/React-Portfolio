@@ -6,11 +6,13 @@ function Nav({ currentPage, changePage}) {
         <nav>
             <div id="nav" className="flex">
                 <ul className="navTabs" >
-                    <li><a href="#about" onClick={() => changePage('About')} className="navItem">About</a></li>
-                    <li><a href="#project" onClick={() => changePage('Project')} className="navItem">Projects</a></li>
-                    <li><a href="#stack" onClick={() => changePage('Stack')} className="navItem">Stack</a></li>
+                    <li><a href="#about" onClick={() => changePage('About')} className={currentPage === 'About' ? "activeNavItem" : "navItem"}>About</a></li>
+                    <li><a href="#project" onClick={() => changePage('Project')} className={currentPage === 'Project' ? "activeNavItem" : "navItem"}>Projects</a></li>
+                    <li><a href="#stack" onClick={() => changePage('Stack')} className={currentPage === 'Stack' ? "activeNavItem" : "navItem"}>Stack</a></li>
+                    <li><a href="#resume" onClick={() => changePage('Resume')} className={currentPage === 'Resume' ? "activeNavItem" : "navItem"}>Resume</a></li>
+
                 </ul>
-                <a href="">Contact</a>
+                <a id="contactNavItem" href="">Contact</a>
             </div>
         </nav>
     )

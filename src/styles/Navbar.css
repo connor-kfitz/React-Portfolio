@@ -6,16 +6,25 @@
 }
 
 .navItem {
-    color:#98dcfe ;
-    text-decoration: none;
     margin: 0 5px 0 5px; 
+    color:#98dcfe ;
+
+}
+
+#contactNavItem {
+    color:#98dcfe ;
 }
 
 #nav a {
-    color:#98dcfe ;
     text-decoration: none;
     font-size: small; 
 }
+
+.activeNavItem {
+    color: #ce9178;
+}
+
+
 
 #nav li {
     display: inline;
