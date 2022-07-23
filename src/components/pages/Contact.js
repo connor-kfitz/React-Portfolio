@@ -7,20 +7,26 @@ import "../../styles/Contact.css";
 function Contact() {
     const form = useRef();
 
-    const sendEmail = (e) => {
-    //   e.preventDefault();
-  
+    const sendEmail = () => {  
       emailjs.sendForm('service_hftbn2b', 'template_wpexs8b', form.current, 'XKCZNIV3S0zU37FTp')
         .then((result) => {
             console.log(result.text);
+
         }, (error) => {
             console.log(error.text);
         });
-        // e.target.reset()
     };
 
-    const [email, setEmail] = useState('');
+    const resetForm = (e) => {
+        e.target.reset()
+    }
+
+    const [nameRequired, setNameRequired] = useState('');
+    const [emailRequired, setEmailRequired] = useState('');
+
     const [userName, setUserName] = useState('');
+    const [email, setEmail] = useState('');
+    const [message, setMessage] = useState('');
     const [errorMessage, setErrorMessage] = useState('');
 
     const handleInputChange = (e) => {
@@ -34,6 +40,8 @@ function Contact() {
           setEmail(inputValue);
         } else if (inputType === 'user_name') {
           setUserName(inputValue);
+        } else if (inputType === 'message') {
+            setMessage(inputValue);
         }
       };
 
@@ -51,6 +59,7 @@ function Contact() {
         sendEmail();
         setUserName('');
         setEmail('');
+        setMessage('');
     };
   
     return (
@@ -59,17 +68,37 @@ function Contact() {
         <form ref={form}>
             <div className="formItem">
                 <label>Name</label>
-                <input type="text" name="user_name" onChange={handleInputChange}/>
+                <input value={userName}
+                       type="text" 
+                       name="user_name" 
+                       onChange={handleInputChange} 
+                       onMouseEnter={() => setNameRequired(true)} 
+                       onMouseLeave={() => setNameRequired(false)}/>
+                {nameRequired && (
+                    <h6 className="requiredFieldMessage">This field is is required</h6>
+                )}
             </div>
             <div className="formItem">
                 <label>Email</label>
-                <input type="email" name="user_email" onChange={handleInputChange}/>
+                <input value={email}
+                       type="email" 
+                       name="user_email" 
+                       onChange={handleInputChange}
+                       onMouseEnter={() => setEmailRequired(true)} 
+                       onMouseLeave={() => setEmailRequired(false)}/>
+                {emailRequired && (
+                    <h6 className="requiredFieldMessage">This field is is required</h6>
+                )}
             </div>
             <div className="formItem">
                 <label>Message</label>
-                <textarea name="message"/>
+                <textarea value={message} onChange={handleInputChange} name="message" />
             </div>
-        <input id="formSubmit" type="submit" value="Send" onClick={handleFormSubmit} />
+                <input id="formSubmit" 
+                       type="submit" 
+                       value="Send" 
+                       onClick={handleFormSubmit}
+                       />
         </form>
         {errorMessage && (
         <div>

@@ -39,3 +39,7 @@ textarea {
 #formSubmit {
     height: 22px;
 }
+
+.requiredFieldMessage {
+    color: #ce9178;
+}
