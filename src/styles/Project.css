@@ -51,3 +51,7 @@ main {
 .projectIndent {
     margin-left: 40px;
 }
+.deployedLink {
+    text-decoration: none;
+    color: #98dcfe;
+}

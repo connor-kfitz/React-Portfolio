@@ -11,16 +11,13 @@
 
 }
 
-#contactNavItem {
-    color:#98dcfe ;
-}
-
 #nav a {
     text-decoration: none;
     font-size: small; 
 }
 
 .activeNavItem {
+    margin: 0 5px 0 5px; 
     color: #ce9178;
 }
 

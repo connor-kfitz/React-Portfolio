@@ -12,7 +12,7 @@ function Nav({ currentPage, changePage}) {
                     <li><a href="#resume" onClick={() => changePage('Resume')} className={currentPage === 'Resume' ? "activeNavItem" : "navItem"}>Resume</a></li>
 
                 </ul>
-                <a id="contactNavItem" href="">Contact</a>
+                <a id="contactNavItem" href="#contact" onClick={() => changePage('Contact')} className={currentPage === 'Contact' ? "activeNavItem" : "navItem"}>Contact</a>
             </div>
         </nav>
     )

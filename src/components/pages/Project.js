@@ -53,6 +53,9 @@ function Project() {
                             <h4 className="yellow">&#125;</h4>
                         </div>
                     </a>
+                    <div>
+                        <a className="deployedLink" href="https://vast-shore-46783.herokuapp.com/" target="blank">Deployed Application Link</a>
+                    </div>
                 </div>
 
 

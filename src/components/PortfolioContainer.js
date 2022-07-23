@@ -5,9 +5,10 @@ import About from "./pages/About";
 import Project from "./pages/Project";
 import Stack from "./pages/Stack";
 import Resume from "./pages/Resume";
+import Contact from "./pages/Contact"
 
 export default function PortfolioContainer() {
-    const [currentPage, setCurrentPage] = useState('Project');
+    const [currentPage, setCurrentPage] = useState('About');
 
     const renderPage = () => {
         if (currentPage === 'About') {
@@ -21,6 +22,9 @@ export default function PortfolioContainer() {
         }
         if (currentPage === 'Resume') {
             return <Resume />;
+        }
+        if (currentPage === 'Contact') {
+            return <Contact />;
         }
     };
 
