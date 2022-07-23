@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-// import Header from "./Header"
 import Nav from "./Nav";
 import Footer from "./Footer";
 import About from "./pages/About";
 import Project from "./pages/Project";
+import Stack from "./pages/Stack";
 
 export default function PortfolioContainer() {
     const [currentPage, setCurrentPage] = useState('Project');
@@ -16,7 +16,7 @@ export default function PortfolioContainer() {
             return <Project />;
         }
         if (currentPage === 'Stack') {
-            return <Project />;
+            return <Stack />;
         }
     };
 

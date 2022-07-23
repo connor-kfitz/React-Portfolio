@@ -1,0 +1,46 @@
+main {
+    height: auto;
+    background-color:#1e1e1e;
+    padding: 10px 10px 10px 10px;
+    color: #98dcfe;
+    font-size: small;
+}
+
+.flex {
+    display: flex;
+}
+
+
+
+.stackTitle {
+    margin-left: 10px;
+}
+
+.stackIconOuterContainer {
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 10px
+}
+
+
+.stackIconSingleContainer{
+    flex-flow: column;
+    align-items: center;
+    margin: 0px 15px 15px 15px;
+}
+
+.stackIconSingleContainer h4{
+    font-size: large;
+    margin-bottom: 10px;
+}
+
+.iconImage {
+    width: 125px;
+    height: 125px;
+}
+
+
+
+/* @media only screen and (min-width: 506px) {
+
+} */
