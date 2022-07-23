@@ -4,7 +4,37 @@
     padding: 10px;
 }
 
+.flex {
+    display: flex;
+}
+
+.blue {
+    color:#569cd6;
+}
+
+.lightGreen {
+    color: #dcdcaa
+}
+
+.yellow {
+    color:#ffd700;
+}
+
+.red {
+    color: #ce9178;
+}
+
+#avatarIcon {
+    width: 150px;
+    height: 150px;
+    float: left;
+    border: solid black 2px;
+    margin: 0 10px 5px 0;
+    background-color: #323233;
+}
+
 #aboutMeText {
     color: #98dcfe;
     font-size: small;
+    padding-top: 10px;
 }
