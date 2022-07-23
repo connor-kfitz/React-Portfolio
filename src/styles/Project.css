@@ -10,7 +10,8 @@ main {
 
 #projectContainer {
     height: auto;
-    /* flex-flow: column; */
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .blue {
@@ -25,15 +26,18 @@ main {
     color:#ffd700;
 }
 
+.projectCard {
+    width: 96%;
+    background-color: #323233;
+    padding: 5px;
+    margin-bottom: 10px
+
+}
+
 .projectAnchor {
     text-decoration: none;
     color: #98dcfe;
     margin: 20px;
-}
-
-.projectCard {
-    background-color: #323233;
-    padding: 5px;
 }
 
 #projectOne {
