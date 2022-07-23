@@ -19,15 +19,24 @@ function Contact() {
     };
   
     return (
-      <form ref={form} onSubmit={sendEmail}>
-        <label>Name</label>
-        <input type="text" name="user_name" />
-        <label>Email</label>
-        <input type="email" name="user_email" />
-        <label>Message</label>
-        <textarea name="message" />
-        <input type="submit" value="Send" />
-      </form>
+    <main>
+        <h1>Contact Form</h1>
+        <form ref={form} onSubmit={sendEmail}>
+            <div className="formItem">
+                <label>Name</label>
+                <input type="text" name="user_name" />
+            </div>
+            <div className="formItem">
+                <label>Email</label>
+                <input type="email" name="user_email" />
+            </div>
+            <div className="formItem">
+                <label>Message</label>
+                <textarea name="message" />
+            </div>
+        <input id="formSubmit" type="submit" value="Send" />
+        </form>
+    </main>
     );
 }
 

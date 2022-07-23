@@ -1,0 +1,41 @@
+main {
+    background-color:#1e1e1e;
+    color: #98dcfe;
+    font-size: small;
+    height: 100vh;
+}
+
+form {
+    font-size: 26px;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.formItem {
+    margin: 5px 0 5px 0;
+}
+
+label {
+    display: block;
+}
+
+input {
+    background-color: #323233;
+    color: #98dcfe;
+    outline: none;
+    width: 320px;
+}
+
+textarea {
+    width: 160px;
+    background-color: #323233;
+    color: #98dcfe;
+    outline: none;
+    height: 52px;
+    width: 320px;
+    resize: none;
+}
+
+#formSubmit {
+    height: 22px;
+}
