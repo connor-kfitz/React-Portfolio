@@ -1,5 +1,4 @@
 #footer {
-    height: auto;
     background-color: #252526;
     align-items: center;
     padding: 10px 10px 10px 10px;
@@ -21,7 +20,6 @@ img {
 #footerInfo {
     flex-flow: column;
     align-items: flex-start;
-    /* padding-top: 5%; */
     height: 80%;
 }
 

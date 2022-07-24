@@ -1,9 +1,11 @@
 import React from "react";
+import Footer from "../Footer.js"
 import "../../styles/Project.css";
 
 function Project() {
 
     return (
+        <div>
             <div id="projectContainer" className="flex">
 
                     <a href="https://github.com/connor-kfitz/purple-orangutan" target="blank" className ="projectAnchor">
@@ -71,6 +73,8 @@ function Project() {
                     </a>
 
             </div>
+            <Footer/>
+        </div>
     )
 }
 

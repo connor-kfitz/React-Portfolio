@@ -1,4 +1,5 @@
 import React, { useRef, useState } from "react";
+import Footer from "../Footer.js";
 import emailjs from 'emailjs-com';
 import { validateEmail } from "../../utils/helpers";
 import "../../styles/Contact.css";
@@ -63,50 +64,52 @@ function Contact() {
     };
   
     return (
-
-    <div id="main">
-        <h1>Contact Form</h1>
-        <form ref={form}>
-            <div className="formItem">
-                <label>Name</label>
-                <input value={userName}
-                       type="text" 
-                       name="user_name" 
-                       onChange={handleInputChange} 
-                       onMouseEnter={() => setNameRequired(true)} 
-                       onMouseLeave={() => setNameRequired(false)}/>
-                {nameRequired && (
-                    <h6 className="requiredFieldMessage">This field is is required</h6>
-                )}
-            </div>
-            <div className="formItem">
-                <label>Email</label>
-                <input value={email}
-                       type="email" 
-                       name="user_email" 
-                       onChange={handleInputChange}
-                       onMouseEnter={() => setEmailRequired(true)} 
-                       onMouseLeave={() => setEmailRequired(false)}/>
-                {emailRequired && (
-                    <h6 className="requiredFieldMessage">This field is is required</h6>
-                )}
-            </div>
-            <div className="formItem">
-                <label>Message</label>
-                <textarea value={message} onChange={handleInputChange} name="message" />
-            </div>
-                <input id="formSubmit" 
-                       type="submit" 
-                       value="Send" 
-                       onClick={handleFormSubmit}
-                       />
-        </form>
-        {errorMessage && (
         <div>
-          <p className="error-text">{errorMessage}</p>
+            <div id="main">
+                <h1>Contact Form</h1>
+                <form ref={form}>
+                    <div className="formItem">
+                        <label>Name</label>
+                        <input value={userName}
+                            type="text" 
+                            name="user_name" 
+                            onChange={handleInputChange} 
+                            onMouseEnter={() => setNameRequired(true)} 
+                            onMouseLeave={() => setNameRequired(false)}/>
+                        {nameRequired && (
+                            <h6 className="requiredFieldMessage">This field is is required</h6>
+                        )}
+                    </div>
+                    <div className="formItem">
+                        <label>Email</label>
+                        <input value={email}
+                            type="email" 
+                            name="user_email" 
+                            onChange={handleInputChange}
+                            onMouseEnter={() => setEmailRequired(true)} 
+                            onMouseLeave={() => setEmailRequired(false)}/>
+                        {emailRequired && (
+                            <h6 className="requiredFieldMessage">This field is is required</h6>
+                        )}
+                    </div>
+                    <div className="formItem">
+                        <label>Message</label>
+                        <textarea value={message} onChange={handleInputChange} name="message" />
+                    </div>
+                        <input id="formSubmit" 
+                            type="submit" 
+                            value="Send" 
+                            onClick={handleFormSubmit}
+                            />
+                </form>
+                {errorMessage && (
+                <div>
+                <p className="error-text">{errorMessage}</p>
+                </div>
+            )}
+            </div>    
+            <Footer/>
         </div>
-      )}
-    </div>    
 );
 }
 
