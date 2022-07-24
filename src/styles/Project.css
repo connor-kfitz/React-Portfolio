@@ -23,10 +23,10 @@
 }
 
 .projectCard {
-    width: 96%;
+    width: 100%;
     background-color: #323233;
     padding: 5px;
-    margin-bottom: 10px
+    margin: 10px 0 10px 0;
 
 }
 
@@ -34,14 +34,7 @@
     text-decoration: none;
     color: #98dcfe;
     margin: 20px;
-}
-
-#projectOne {
-    margin-top: 0px;
-}
-
-#projectSix {
-    margin-bottom: 0px;
+    width: 100%;
 }
 
 .projectIndent {

@@ -11,6 +11,8 @@ import bootStrapIcon from "../../images/stack-images/bootstrap5-logo.jpeg"
 import mySqlIcon from "../../images/stack-images/mySql-logo.png"
 import handlebarsIcon from "../../images/stack-images/handlebars-logo.png"
 
+import { motion } from 'framer-motion'
+
 
 function Stack() {
     return (
@@ -20,12 +22,12 @@ function Stack() {
                 
                 <div className="flex stackIconSingleContainer">
                     <h4>React</h4>
-                    <img src={reactIcon} alt="React Icon" className="iconImage"/>
+                    <motion.img src={reactIcon} alt="React Icon" className="iconImage" whileHover={{ rotate: 360, transition: { repeat: Infinity, repeatType: 'loop', duration: 5 } }}/>
                 </div>
 
                 <div className="flex stackIconSingleContainer">
                     <h4>Node.Js</h4>
-                    <img src={nodeIcon} alt="Node.Js Icon" className="iconImage"/>
+                    <motion.img src={nodeIcon} alt="Node.Js Icon" className="iconImage" whileHover={{ rotate: [0, 30, 90, 150, 210, 270, 330, 360], transition: { repeat: Infinity, repeatType: 'loop', duration: 6 } }}/>
                 </div>
 
                 <div className="flex stackIconSingleContainer">
