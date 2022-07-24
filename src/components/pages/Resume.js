@@ -7,11 +7,16 @@ function Resume() {
         <div id="main">
             <a id="resumeDownload" href={resume} download>Resume Download</a>
             <div id="profContainer">
-                <h2>Proficiencies</h2>
+                <h1 id="profHeader">Proficiencies</h1>
                     <div>
-                        <h3>Technical</h3>
-                        
-                        <h3>Soft</h3>
+                        <ul>
+                            <li className="profListItem">Problem Solving</li>
+                            <li className="profListItem">Leadership</li>
+                            <li className="profListItem">Interpersonal & Communication</li>
+                            <li className="profListItem">Time Management</li>
+                            <li className="profListItem">Creative</li>
+                            <li className="profListItem">Teamwork</li>
+                        </ul>
                     </div>
             </div>
         </div>

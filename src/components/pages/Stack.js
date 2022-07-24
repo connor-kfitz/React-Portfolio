@@ -14,28 +14,28 @@ import handlebarsIcon from "../../images/stack-images/handlebars-logo.png"
 
 function Stack() {
     return (
-        <div id="main">
+    <div id="main">
             <h1 className="stackTitle">MERN</h1>
             <div className="stackIconOuterContainer flex">
                 
                 <div className="flex stackIconSingleContainer">
                     <h4>React</h4>
-                    <img src={reactIcon} className="iconImage"/>
+                    <img src={reactIcon} alt="React Icon" className="iconImage"/>
                 </div>
 
                 <div className="flex stackIconSingleContainer">
                     <h4>Node.Js</h4>
-                    <img src={nodeIcon} className="iconImage"/>
+                    <img src={nodeIcon} alt="Node.Js Icon" className="iconImage"/>
                 </div>
 
                 <div className="flex stackIconSingleContainer">
                     <h4>MongoDB</h4>
-                    <img src={mongoIcon} className="iconImage"/>
+                    <img src={mongoIcon} alt="MongoDB Icon" className="iconImage"/>
                 </div>
 
                 <div className="flex stackIconSingleContainer lastItemAlign">
                     <h4>Express.Js</h4>
-                    <img src={expressIcon} className="iconImage"/>
+                    <img src={expressIcon} alt="Express.Js Icon" className="iconImage"/>
                 </div>
             </div>
 
@@ -44,22 +44,22 @@ function Stack() {
                 
                 <div className="flex stackIconSingleContainer">
                     <h4>HTML 5</h4>
-                    <img src={htmlIcon} className="iconImage"/>
+                    <img src={htmlIcon} alt="HTML5 Icon" className="iconImage"/>
                 </div>
 
                 <div className="flex stackIconSingleContainer">
                     <h4>CSS 3</h4>
-                    <img src={cssIcon} className="iconImage"/>
+                    <img src={cssIcon} alt="CSS3 Icon" className="iconImage"/>
                 </div>
 
                 <div className="flex stackIconSingleContainer">
                     <h4>JavaScript</h4>
-                    <img src={javaIcon} className="iconImage"/>
+                    <img src={javaIcon} alt="JavaScript Icon" className="iconImage"/>
                 </div>
 
                 <div className="flex stackIconSingleContainer">
                     <h4>Bootstrap</h4>
-                    <img src={bootStrapIcon} className="iconImage"/>
+                    <img src={bootStrapIcon} alt="BootStrap Icon" className="iconImage"/>
                 </div>
             </div>
 
@@ -68,16 +68,16 @@ function Stack() {
                 
                 <div className="flex stackIconSingleContainer test">
                     <h4>mySql</h4>
-                    <img src={mySqlIcon} className="iconImage"/>
+                    <img src={mySqlIcon} alt="mySql Icon" className="iconImage"/>
                 </div>
 
                 <div className="flex stackIconSingleContainer">
                     <h4>Handlebars</h4>
-                    <img src={handlebarsIcon} className="iconImage"/>
+                    <img src={handlebarsIcon} alt="Handlebars Icon" className="iconImage"/>
                 </div>
             </div>
         </div>
-    )
+    );
 }
 
 export default Stack;
