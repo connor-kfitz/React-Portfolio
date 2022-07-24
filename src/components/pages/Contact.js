@@ -18,10 +18,6 @@ function Contact() {
         });
     };
 
-    const resetForm = (e) => {
-        e.target.reset()
-    }
-
     const [nameRequired, setNameRequired] = useState('');
     const [emailRequired, setEmailRequired] = useState('');
 
@@ -65,8 +61,9 @@ function Contact() {
   
     return (
         <div>
-            <div id="main">
-                <h1>Contact Form</h1>
+            <div id="mainContact" className="flex">
+                <div id="contactForm">
+                <h1 id="contactFormTitle">Contact Form</h1>
                 <form ref={form}>
                     <div className="formItem">
                         <label>Name</label>
@@ -107,6 +104,7 @@ function Contact() {
                 <p className="error-text">{errorMessage}</p>
                 </div>
             )}
+            </div>
             </div>    
             <Footer/>
         </div>

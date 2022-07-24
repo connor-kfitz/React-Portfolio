@@ -1,6 +1,7 @@
-#main {
+#mainAbout {
     background-color:#1e1e1e;
     padding: 10px;
+    min-height: 84vh;
 }
 
 .blue {
@@ -24,7 +25,7 @@
     height: 150px;
     float: left;
     border: solid black 2px;
-    margin: 0 10px 5px 0;
+    margin: 12px 10px 5px 0;
     background-color: #323233;
 }
 
@@ -32,4 +33,28 @@
     color: #98dcfe;
     font-size: small;
     padding-top: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+    #mainAbout {
+        padding: 20px;
+    }
+    #avatarIcon {
+        width: 350px;
+        height: 350px;
+        margin-top: 14px
+    }
+    #aboutMeText {
+        font-size: x-large;
+    }
+  }
+
+@media only screen and (min-width: 1080px) {
+    #aboutMeContainer {
+        /* margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto; */
+        margin: 50px auto 50px auto;
+        width: 1024px;
+    }
 }

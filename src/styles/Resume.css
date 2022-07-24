@@ -1,7 +1,11 @@
-#main {
+#mainResume {
     background-color:#1e1e1e;
     padding: 10px 10px 10px 10px;
     color: #98dcfe;
+}
+
+#resumeContainer {
+
 }
 
 #resumeDownload {
@@ -11,7 +15,7 @@
 }
 
 #profContainer {
-    margin-top: 10px;
+    margin: 10px 0;
 }
 
 #profHeader {
@@ -21,4 +25,14 @@
 .profListItem {
     font-size: large;
     margin-left: 28px;
+}
+
+@media only screen and (min-width: 1024px) {
+    #mainResume {
+        justify-content: center;
+    }
+    #resumeContainer {
+        padding-top: 30px;
+        width: 1000px;
+    }
 }

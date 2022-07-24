@@ -21,8 +21,15 @@
     color: #ce9178;
 }
 
-
-
 #nav li {
     display: inline;
+}
+
+@media only screen and (min-width: 768px) {
+    #nav {
+        padding: 15px 15px;
+    }
+    #nav a {
+        font-size: x-large;
+    }
 }

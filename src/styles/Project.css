@@ -1,11 +1,12 @@
-.flex {
-    display: flex;
+#mainProject {
+    background-color:#1e1e1e;
+    justify-content: center;
 }
 
 #projectContainer {
     flex-wrap: wrap;
-    justify-content: space-around;
-    background-color:#1e1e1e;
+    justify-content: space-evenly;
+    align-items: flex-start;
     color: #98dcfe;
     font-size: small;
 }
@@ -25,19 +26,29 @@
 .projectCard {
     background-color: #323233;
     padding: 5px;
+    width: 90%;
+    margin: 10px 0;
+}
+
+#projectOne {
+    margin-top: 20px;
+}
+
+#projectSix {
+    margin-bottom: 20px;
 }
 
 .projectAnchor {
     text-decoration: none;
     color: #98dcfe;
-    margin: 10px 10px 0px;
-    width: 100%;
+    display: block;
 }
 
 .projectIndent {
     margin-left: 40px;
 }
 .deployedLink {
+    display: block;
     text-decoration: none;
     color: #98dcfe;
     background-color: #323233;
@@ -46,3 +57,49 @@
 .aboveDep {
     margin-bottom: 8px;
 }
+
+@media only screen and (min-width: 768px) {
+    #projectContainer {
+        font-size: large;
+        padding: 1% 1%;
+    }
+    .projectCard {
+        height: 175px;
+        width: 46%;
+        margin: 1% 1%;
+    }
+    #projectTwo {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    #projectContainer {
+        font-size: large;
+        padding: 1% 1%;
+    }
+    .projectCard {
+        height: 200px;
+        width: 30%;
+        margin: 1% 1%;
+    }
+    #projectThree {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (min-width: 1460px) {
+    #projectContainer {
+        width: 1440px;
+
+    }
+    .projectCard {
+        height: 200px;
+        width: 30%;
+        margin: 1% 1%;
+    }
+    #projectThree {
+        margin-top: 20px;
+    }
+}
+

@@ -1,12 +1,16 @@
-#main {
+#mainStack {
     background-color:#1e1e1e;
     padding: 10px 10px 10px 10px;
     color: #98dcfe;
-    font-size: small;
+    justify-content: center;
 }
 
 .flex {
     display: flex;
+}
+
+#stackContainer {
+    width: 100%;
 }
 
 .stackTitle {
@@ -27,8 +31,8 @@
 }
 
 .stackIconSingleContainer h4{
-    font-size: large;
     margin-bottom: 10px;
+    font-size: large;
 }
 
 .iconImage {
@@ -38,6 +42,15 @@
 
 
 
-/* @media only screen and (min-width: 506px) {
+@media only screen and (min-width: 768px) {
+    .stackIconSingleContainer h4{
 
-} */
+        font-size: x-large;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    #stackContainer {
+        width: 1000px;
+    }
+}

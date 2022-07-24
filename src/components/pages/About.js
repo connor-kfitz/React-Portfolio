@@ -7,9 +7,9 @@ import bitmojiIcon from "../../images/bitmojiAvatar.png"
 function Main() {
     return (
             <div>
-                <div id="main">
-                    <div id="aboutMeContainer" className="">
-                        <img id="avatarIcon" src={bitmojiIcon}></img>
+                <div id="mainAbout">
+                    <div id="aboutMeContainer">
+                        <img id="avatarIcon" src={bitmojiIcon} alt="Avater Picture"/>
                         <div id="aboutMeText">
                             <p>Hello, my name is <span className="red">Connor Fitzsimmons</span>.  I am a <span className="blue">Toronto</span> based <span className="lightGreen">Full-Stack Developer</span>, currently enrolled in a Full-Stack Devleoper course at <span className="red">The University of Toronto</span>.</p>
                             <br></br>

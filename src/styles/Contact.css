@@ -1,8 +1,17 @@
-#main {
+#mainContact {
     background-color:#1e1e1e;
     color: #98dcfe;
     font-size: small;
+    justify-content: center;
     height: 100vh;
+}
+
+#contactForm {
+    width: 94%;
+}
+
+#contactFormTitle {
+    margin-top: 10px;
 }
 
 form {
@@ -41,4 +50,17 @@ textarea {
 
 .requiredFieldMessage {
     color: #ce9178;
+}
+
+@media only screen and (min-width: 768px) {
+    #mainContact{
+        justify-content: center;
+    }
+    #contactForm {
+        width: 550px;
+    }
+    textarea {
+        height: 78px;
+    }
+
 }
