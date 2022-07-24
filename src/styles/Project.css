@@ -23,17 +23,14 @@
 }
 
 .projectCard {
-    width: 100%;
     background-color: #323233;
     padding: 5px;
-    margin: 10px 0 10px 0;
-
 }
 
 .projectAnchor {
     text-decoration: none;
     color: #98dcfe;
-    margin: 20px;
+    margin: 10px 10px 0px;
     width: 100%;
 }
 
@@ -43,4 +40,9 @@
 .deployedLink {
     text-decoration: none;
     color: #98dcfe;
+    background-color: #323233;
+}
+
+.aboveDep {
+    margin-bottom: 8px;
 }

@@ -23,16 +23,15 @@ input {
     background-color: #323233;
     color: #98dcfe;
     outline: none;
-    width: 320px;
+    width: 98%;
 }
 
 textarea {
-    width: 160px;
     background-color: #323233;
     color: #98dcfe;
     outline: none;
     height: 52px;
-    width: 320px;
+    width: 98%;
     resize: none;
 }
 

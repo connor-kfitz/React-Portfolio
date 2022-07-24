@@ -9,8 +9,6 @@
     display: flex;
 }
 
-
-
 .stackTitle {
     margin-left: 10px;
 }
@@ -34,8 +32,8 @@
 }
 
 .iconImage {
-    width: 125px;
-    height: 125px;
+    width: 100px;
+    height: 100px;
 }
 
 

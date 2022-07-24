@@ -1,11 +1,6 @@
 #main {
-    height: auto;
     background-color:#1e1e1e;
     padding: 10px;
-}
-
-.flex {
-    display: flex;
 }
 
 .blue {
