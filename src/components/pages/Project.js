@@ -6,6 +6,7 @@ function Project() {
 
     return (
         <div>
+        <div id="view">
         <div id="mainProject" className="flex">
             <div id="projectContainer" className="flex">
 
@@ -61,7 +62,7 @@ function Project() {
                             <h4 className="projectIndent">type: <span className="lightGreen">frontEnd</span></h4>
                             <h4 className="projectIndent">collaboration: <span className="blue">false;</span></h4>
                             <h4 className="yellow aboveDep">&#125;</h4>
-                            <a className="deployedLink" href="" target="blank">Deployed Application Link</a>
+                            <a className="deployedLink" href="https://vast-shore-46783.herokuapp.com/" target="blank">Deployed Application Link</a>
                             <a href="https://github.com/connor-kfitz/purple-frog" target="blank" className ="projectAnchor">Github Link</a>
 
                         </div>
@@ -72,11 +73,12 @@ function Project() {
                             <h4 className="projectIndent">type: <span className="lightGreen">fullStackMERN</span></h4>
                             <h4 className="projectIndent">collaboration: <span className="blue">true;</span></h4>
                             <h4 className="yellow aboveDep">&#125;</h4>
-                            <a className="deployedLink" href="" target="blank">Deployed Application Link</a>
-                            <a href="" target="blank" className ="projectAnchor">Github Link</a>
+                            <a className="deployedLink" href="https://vast-shore-46783.herokuapp.com/" target="blank">Deployed Application Link</a>
+                            <a href="https://vast-shore-46783.herokuapp.com/" target="blank" className ="projectAnchor">Github Link</a>
                         </div>
 
             </div>
+        </div>
         </div>
         <Footer/>
         </div>

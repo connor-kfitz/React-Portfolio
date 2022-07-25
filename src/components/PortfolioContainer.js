@@ -12,10 +12,10 @@ export default function PortfolioContainer() {
 
     const renderPage = () => {
         if (currentPage === 'About') {
-            return <About />;
+            return <About className="renderView"/>;
         }
         if (currentPage === 'Project') {
-            return <Project />;
+            return <Project className="renderView"/>;
         }
         if (currentPage === 'Stack') {
             return <Stack />;

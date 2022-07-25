@@ -3,6 +3,7 @@
     padding: 10px 10px 10px 10px;
     color: #98dcfe;
     justify-content: center;
+    min-height: 100vh;
 }
 
 .flex {

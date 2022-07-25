@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# Reat: Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Link
 
-## Available Scripts
+## Description
+The purpose of this project is to design a personal protfolio web-page.  The page will be built using React and feature other npm packages such as emailJs and framerMotion.  A mobile-first design apporach will be used during creation.
 
-In the project directory, you can run:
+Initially loading the page will bring the user to an "about" page, where information on the creater can be found.  Additonal nav links at the top can redirect the user to a "projects", "stack", "resume", and "contact" pages.  The "projects" page will feature six of the creaters best projects laid on responsive tiles, with reference links.  The "stack" and "resume" sections will display the creaters technical and soft skills respectively.  The "resume" page will also contain a download link for the creaters resume.  Lastly the "contact" page will have have form fields that allow the user to contact the creater via email messaging.    
 
-### `npm start`
+## Steps Taken
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1.  Created a react application and implemented desired folder structure in the src
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2.  Created required index.js, app.js, component, and js files
 
-### `npm test`
+3.  Coded base and functionallity of nav, footer, portfolio container, and pages
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+4.  Added utils/helpers.js, coded base and functionallity for contact page.  Installed and configured mailJS to allow users to send email messages
 
-### `npm run build`
+5.  Styled all components and pages
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+6.  Installed and configured framerMotion to work on the stack page's logos
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Pictures
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### About Page
+![About Page](./images/about-page.png)
 
-### `npm run eject`
+### Projects Page
+![Projects Page](./images/projects-page.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Stack Page
+![Stack Page](./images/stack-page.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Resume Page
+![Resume Page](./images/resume-page.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Contact Page
+![Contact Page](./images/contact-page.png)

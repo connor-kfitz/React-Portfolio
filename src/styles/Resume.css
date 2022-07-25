@@ -2,10 +2,11 @@
     background-color:#1e1e1e;
     padding: 10px 10px 10px 10px;
     color: #98dcfe;
+    min-height: 100vh;
 }
 
-#resumeContainer {
-
+#resumeContainer{
+    margin-bottom: 40px;
 }
 
 #resumeDownload {

@@ -1,5 +1,9 @@
-#mainProject {
+#view {
+    min-height: 100vh;
     background-color:#1e1e1e;
+
+}
+#mainProject {
     justify-content: center;
 }
 

@@ -3,11 +3,12 @@
     color: #98dcfe;
     font-size: small;
     justify-content: center;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 #contactForm {
     width: 94%;
+    margin-bottom: 20px;
 }
 
 #contactFormTitle {
