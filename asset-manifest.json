@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/purple-frog/static/css/main.3425d79d.css",
-    "main.js": "/purple-frog/static/js/main.1f95f7e6.js",
-    "static/media/bitmojiAvatar.png": "/purple-frog/static/media/bitmojiAvatar.5c8480eb3eda8b887517.png",
-    "static/media/express.png": "/purple-frog/static/media/express.cca64e0f360897258ecb.png",
-    "static/media/Resume-Connor-Fitzsimmons.docx": "/purple-frog/static/media/Resume-Connor-Fitzsimmons.1aebe33a295f0942310b.docx",
-    "static/media/mySql-logo.png": "/purple-frog/static/media/mySql-logo.af67b27a26e0f0f894c7.png",
-    "static/media/bootstrap5-logo.jpeg": "/purple-frog/static/media/bootstrap5-logo.2bf5c6847d71988b0af7.jpeg",
-    "static/media/html5.png": "/purple-frog/static/media/html5.ff3cf75e3b7cbb4ea77c.png",
-    "static/media/node-js.webp": "/purple-frog/static/media/node-js.c52357c303ec3b476aa5.webp",
-    "static/media/JavaScript-logo.png": "/purple-frog/static/media/JavaScript-logo.266bd9fb2663dcc057b4.png",
-    "static/media/mongo_db.webp": "/purple-frog/static/media/mongo_db.f79b501f8ab5a6118bf4.webp",
-    "index.html": "/purple-frog/index.html",
-    "main.3425d79d.css.map": "/purple-frog/static/css/main.3425d79d.css.map",
-    "main.1f95f7e6.js.map": "/purple-frog/static/js/main.1f95f7e6.js.map"
+    "main.css": "/React-Portfolio/static/css/main.3425d79d.css",
+    "main.js": "/React-Portfolio/static/js/main.31f49370.js",
+    "static/media/bitmojiAvatar.png": "/React-Portfolio/static/media/bitmojiAvatar.5c8480eb3eda8b887517.png",
+    "static/media/express.png": "/React-Portfolio/static/media/express.cca64e0f360897258ecb.png",
+    "static/media/Resume-Connor-Fitzsimmons.docx": "/React-Portfolio/static/media/Resume-Connor-Fitzsimmons.1aebe33a295f0942310b.docx",
+    "static/media/mySql-logo.png": "/React-Portfolio/static/media/mySql-logo.af67b27a26e0f0f894c7.png",
+    "static/media/bootstrap5-logo.jpeg": "/React-Portfolio/static/media/bootstrap5-logo.2bf5c6847d71988b0af7.jpeg",
+    "static/media/html5.png": "/React-Portfolio/static/media/html5.ff3cf75e3b7cbb4ea77c.png",
+    "static/media/node-js.webp": "/React-Portfolio/static/media/node-js.c52357c303ec3b476aa5.webp",
+    "static/media/JavaScript-logo.png": "/React-Portfolio/static/media/JavaScript-logo.266bd9fb2663dcc057b4.png",
+    "static/media/mongo_db.webp": "/React-Portfolio/static/media/mongo_db.f79b501f8ab5a6118bf4.webp",
+    "index.html": "/React-Portfolio/index.html",
+    "main.3425d79d.css.map": "/React-Portfolio/static/css/main.3425d79d.css.map",
+    "main.31f49370.js.map": "/React-Portfolio/static/js/main.31f49370.js.map"
   },
   "entrypoints": [
     "static/css/main.3425d79d.css",
-    "static/js/main.1f95f7e6.js"
+    "static/js/main.31f49370.js"
   ]
 }
