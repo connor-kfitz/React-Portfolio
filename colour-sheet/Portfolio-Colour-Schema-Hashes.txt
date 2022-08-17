@@ -1,0 +1,14 @@
+Dark: #1e1e1e
+Medium: #252526
+Light: #323233
+
+White: #98dcfe
+blue: #4fc1ff
+darker-blue: #569cd6
+green?: #4ec9b0
+light-green: #dcdcaa
+red: #ce9178
+
+Font: Consolas
+
+
