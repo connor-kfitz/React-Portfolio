@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.992b095c.css",
-    "main.js": "/React-Portfolio/static/js/main.4ad677a4.js",
+    "main.js": "/React-Portfolio/static/js/main.68f3b19d.js",
     "static/media/React-Portfolio-Homepage.png": "/React-Portfolio/static/media/React-Portfolio-Homepage.8c2f6733f54b9106ee95.png",
     "static/media/OddJobsPicture.png": "/React-Portfolio/static/media/OddJobsPicture.8cd31fd1e2456b2e4796.png",
     "static/media/Brewery-Near-Me-Homepage.png": "/React-Portfolio/static/media/Brewery-Near-Me-Homepage.9f99501e669d48eb40b2.png",
@@ -19,10 +19,10 @@
     "static/media/mongo_db.webp": "/React-Portfolio/static/media/mongo_db.f79b501f8ab5a6118bf4.webp",
     "index.html": "/React-Portfolio/index.html",
     "main.992b095c.css.map": "/React-Portfolio/static/css/main.992b095c.css.map",
-    "main.4ad677a4.js.map": "/React-Portfolio/static/js/main.4ad677a4.js.map"
+    "main.68f3b19d.js.map": "/React-Portfolio/static/js/main.68f3b19d.js.map"
   },
   "entrypoints": [
     "static/css/main.992b095c.css",
-    "static/js/main.4ad677a4.js"
+    "static/js/main.68f3b19d.js"
   ]
 }
