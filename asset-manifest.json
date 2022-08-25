@@ -1,10 +1,16 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.3425d79d.css",
-    "main.js": "/React-Portfolio/static/js/main.31f49370.js",
+    "main.css": "/React-Portfolio/static/css/main.992b095c.css",
+    "main.js": "/React-Portfolio/static/js/main.4ad677a4.js",
+    "static/media/React-Portfolio-Homepage.png": "/React-Portfolio/static/media/React-Portfolio-Homepage.8c2f6733f54b9106ee95.png",
+    "static/media/OddJobsPicture.png": "/React-Portfolio/static/media/OddJobsPicture.8cd31fd1e2456b2e4796.png",
+    "static/media/Brewery-Near-Me-Homepage.png": "/React-Portfolio/static/media/Brewery-Near-Me-Homepage.9f99501e669d48eb40b2.png",
+    "static/media/Social-Network-Insomnia.JPG": "/React-Portfolio/static/media/Social-Network-Insomnia.77b20e3b8b50592550da.JPG",
+    "static/media/Tech-Blog-Homepage.png": "/React-Portfolio/static/media/Tech-Blog-Homepage.72f08e461858ed8c6319.png",
+    "static/media/Resume-Connor-Fitzsimmons.pdf": "/React-Portfolio/static/media/Resume-Connor-Fitzsimmons.6d204956c2a5c625ebad.pdf",
+    "static/media/Employee-Tracker-Homepage.JPG": "/React-Portfolio/static/media/Employee-Tracker-Homepage.5d274ab9c80db393d485.JPG",
     "static/media/bitmojiAvatar.png": "/React-Portfolio/static/media/bitmojiAvatar.5c8480eb3eda8b887517.png",
     "static/media/express.png": "/React-Portfolio/static/media/express.cca64e0f360897258ecb.png",
-    "static/media/Resume-Connor-Fitzsimmons.docx": "/React-Portfolio/static/media/Resume-Connor-Fitzsimmons.1aebe33a295f0942310b.docx",
     "static/media/mySql-logo.png": "/React-Portfolio/static/media/mySql-logo.af67b27a26e0f0f894c7.png",
     "static/media/bootstrap5-logo.jpeg": "/React-Portfolio/static/media/bootstrap5-logo.2bf5c6847d71988b0af7.jpeg",
     "static/media/html5.png": "/React-Portfolio/static/media/html5.ff3cf75e3b7cbb4ea77c.png",
@@ -12,11 +18,11 @@
     "static/media/JavaScript-logo.png": "/React-Portfolio/static/media/JavaScript-logo.266bd9fb2663dcc057b4.png",
     "static/media/mongo_db.webp": "/React-Portfolio/static/media/mongo_db.f79b501f8ab5a6118bf4.webp",
     "index.html": "/React-Portfolio/index.html",
-    "main.3425d79d.css.map": "/React-Portfolio/static/css/main.3425d79d.css.map",
-    "main.31f49370.js.map": "/React-Portfolio/static/js/main.31f49370.js.map"
+    "main.992b095c.css.map": "/React-Portfolio/static/css/main.992b095c.css.map",
+    "main.4ad677a4.js.map": "/React-Portfolio/static/js/main.4ad677a4.js.map"
   },
   "entrypoints": [
-    "static/css/main.3425d79d.css",
-    "static/js/main.31f49370.js"
+    "static/css/main.992b095c.css",
+    "static/js/main.4ad677a4.js"
   ]
 }
