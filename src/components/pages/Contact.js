@@ -99,6 +99,7 @@ function Contact() {
                             onClick={handleFormSubmit}
                             />
                 </form>
+                <h1 id="emailLink">Email: <a href="mailto:connorkfitzsimmons@gmail.com">connorkfitzsimmons@gmail.com</a></h1>
                 {errorMessage && (
                 <div>
                 <p className="error-text">{errorMessage}</p>

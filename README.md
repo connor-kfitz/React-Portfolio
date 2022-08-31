@@ -2,7 +2,7 @@
 
 ## Link
 
-https://connor-kfitz.github.io/purple-frog/#about
+https://connor-kfitz.github.io/React-Portfolio/
 
 ## Description
 The purpose of this project is to design a personal protfolio web-page.  The page will be built using React and feature other npm packages such as emailJs and framerMotion.  A mobile-first design apporach will be used during creation.

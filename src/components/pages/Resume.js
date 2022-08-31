@@ -1,7 +1,7 @@
 import React from "react";
 import "../../styles/Resume.css";
 import Footer from "../Footer.js";
-import resume from "../../downloadable-files/Resume-Connor-Fitzsimmons.docx"
+import resume from "../../downloadable-files/Resume-Connor-Fitzsimmons.pdf"
 
 function Resume() {
     return (

@@ -9,10 +9,12 @@
 #contactForm {
     width: 94%;
     margin-bottom: 20px;
+    height: auto;
 }
 
 #contactFormTitle {
     margin-top: 10px;
+    color: #ce9178;
 }
 
 form {
@@ -53,6 +55,16 @@ textarea {
     color: #ce9178;
 }
 
+#emailLink {
+    margin-top: 20px;
+    color: #ce9178;
+}
+
+#emailLink a {
+    text-decoration: none;
+    color: #98dcfe;
+}
+
 @media only screen and (min-width: 768px) {
     #mainContact{
         justify-content: center;
@@ -64,4 +76,10 @@ textarea {
         height: 78px;
     }
 
+}
+
+@media only screen and (max-width: 425px) {
+    #emailLink {
+        font-size: 18px;
+    }
 }
